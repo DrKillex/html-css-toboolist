@@ -26,12 +26,14 @@ body {
 }
 
 .container-main {
-    width: 65%;
+    width: 50%;
     margin: auto;
     margin-top: 100px;
+
 }
+
 section {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 button {
@@ -50,4 +52,57 @@ button {
     box-sizing: border-box;
     border: 1px solid #C8CED3; 
     background-color: white;
+}
+
+h2::before {
+    content: "\25BC";
+}
+
+.bollino {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+ul {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    list-style-type: none;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+
+li::before {
+    content: "\2713";
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.nope::before {
+    content: "\26CC";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.mini-container {
+    padding-left: 30px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+.blu {
+    background-color: #45ABEA;
 }
