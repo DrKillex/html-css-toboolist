@@ -99,7 +99,7 @@ li::before {
 }
 
 .nope::before {
-    content: "\26CC";
+    content: "\2716";
     color: red;
     border: 1px solid red;
     border-radius: 50%;
