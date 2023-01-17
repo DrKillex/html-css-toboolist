@@ -1,3 +1,24 @@
 * {
     font-family: 'Roboto', sans-serif;;
 }
+
+.container-header, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-header {
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+
+
+.logo, .title-name {
+    vertical-align: middle;
+    display: inline-block;
+}
